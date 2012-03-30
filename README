@@ -1,3 +1,11 @@
-compile line
+This is a port of Triff_hunter gcodeview to windows.
 
-cl simple.c /TP /MD /EHsc /link SDL.lib SDLmain.lib OpenGL32.Lib /SUBSYSTEM:CONSOLE
+if you want to compile this yourself at the moment gcodeview only depends on SDL
+
+SDL can be downloaded at: http://www.libsdl.org/
+
+i use visual studio inorder to compile the main.c
+
+compile line used
+
+cl main.c /TP /MD /EHsc /link SDL.lib SDLmain.lib OpenGL32.Lib /SUBSYSTEM:CONSOLE

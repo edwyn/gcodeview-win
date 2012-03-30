@@ -1,0 +1,3 @@
+compile line
+
+cl simple.c /TP /MD /EHsc /link SDL.lib SDLmain.lib OpenGL32.Lib /SUBSYSTEM:CONSOLE
